@@ -1,3 +1,4 @@
+//Part 1
 // Loop through all numbers from 1 to 100.
 // If a number is divisible by 3, log “Fizz.”
 // If a number is divisible by 5, log “Buzz.”
@@ -20,3 +21,27 @@ while(x < 101){
         console.log(x)}
     x++
 }
+
+//Part 2
+// Declare an arbitrary number, n.
+// Create a loop that searches for the next prime number, starting at n and incrementing from there.
+// As soon as you find the prime number, log that number and exit the loop.
+
+let n = 5
+while (n < 43){
+
+    let prime = true;
+    let div = 2;
+    while(div <= Math.sqrt(n)){
+        if (n % div === 0){
+            prime = false;
+            break;
+        }
+        div ++;
+    }
+    if(prime){
+        console.log(n + ' Prime')
+    }
+    n++
+}
+
