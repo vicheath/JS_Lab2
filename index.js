@@ -6,44 +6,44 @@
 // If a number is not divisible by either 3 or 5, log the number.
 // index.js
 
-// let x = 1
+let x = 1
 
-// while(x < 101){
+while(x < 101){
 
-//     if(x % 3 === 0){
-// // Console.log(literal) = does not need to be declared - literaly spit this out
-//     console.log(x + ' Fizz')}
-//     if(x % 5 === 0){
-//         console.log(x +' Buzz')}
-//     if(x % 3 === 0 && x % 5 === 0){
-//             console.log(x + 'Fizz Buzz')}
-//     if(x % 3 !== 0 && x % 5 !== 0){
-//         console.log(x)}
-//     x++
-// }
+    if(x % 3 === 0){
+// Console.log(literal) = does not need to be declared - literaly spit this out
+    console.log(x + ' Fizz')}
+    if(x % 5 === 0){
+        console.log(x +' Buzz')}
+    if(x % 3 === 0 && x % 5 === 0){
+            console.log(x + 'Fizz Buzz')}
+    if(x % 3 !== 0 && x % 5 !== 0){
+        console.log(x)}
+    x++
+}
 
 //Part 2
 // Declare an arbitrary number, n.
 // Create a loop that searches for the next prime number, starting at n and incrementing from there.
 // As soon as you find the prime number, log that number and exit the loop.
 
-// let n = 5
-// while (n < 43){
+let n = 5
+while (n < 43){
 
-//     let prime = true;
-//     let div = 2;
-//     while(div <= Math.sqrt(n)){
-//         if (n % div === 0){
-//             prime = false;
-//             break;
-//         }
-//         div ++;
-//     }
-//     if(prime){
-//         console.log(n + ' Prime')
-//     }
-//     n++
-// }
+    let prime = true;
+    let div = 2;
+    while(div <= Math.sqrt(n)){
+        if (n % div === 0){
+            prime = false;
+            break;
+        }
+        div ++;
+    }
+    if(prime){
+        console.log(n + ' Prime')
+    }
+    n++
+}
 
 
 // Part 3
